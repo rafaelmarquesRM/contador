@@ -1,0 +1,71 @@
+body {
+  background: var(--background);
+  height: 100vh;
+}
+header h1 {
+  text-align: center;
+  color: var(--white);
+  line-height: 2;
+  font-size: 6rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+#valor {
+  color: var(--white);
+  text-align: center;
+  font-size: 5rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.botao {
+  height: 6rem;
+  width: 33%;
+  font-size: 2rem;
+  border: 0px;
+}
+.botao-lateral {
+  background: var(--grey);
+  color: var(--white);
+  transition: 0.3s;
+}
+.botao-lateral:hover {
+  background: var(--darkGrey);
+}
+.botao-central {
+  background: var(--black);
+  color: var(--white);
+  transition: 0.3s;
+}
+.botao-central:hover {
+  background: var(--darkGrey);
+}
+p {
+  color: var(--white);
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+footer {
+  color: var(--white);
+  text-align: center;
+}
+.signature {
+  color: var(--white);
+  font-size: 2rem;
+
+  margin-top: 1rem;
+  line-height: 5rem;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.signature:hover {
+  color: var(--grey);
+}
