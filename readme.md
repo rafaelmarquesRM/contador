@@ -1,7 +1,8 @@
 ## Contador
 
 Este é um contador que acrescenta, diminui ou reseta o valor.
-E o valor não pode ser negativo
+O valor não pode ser negativo.
+Para ver o resultado acesse: https://rafaelmarquesrm.github.io/contador/
 
 feito com:
 HTML, CSS e Javascript
